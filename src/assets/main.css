@@ -1,0 +1,31 @@
+@import "reset.css";
+
+.img_g {
+    display: block;
+    width: 100%
+}
+
+.wrap_tit {
+    padding: 24vw 0 8vw;
+}
+
+.wrap_tit .tit_g {
+    display: block;
+    font-weight: 600;
+    font-size: 3.93vw;
+    line-height: 5.33vw;
+    color: #000;
+    font-family: NotoSansKR;
+    text-align: center
+}
+
+@media screen and (min-width: 640px) {
+    .wrap_tit {
+        padding: 153px 0 51px;
+    }
+
+    .wrap_tit .tit_g {
+        font-size: 24px;
+        line-height: 34px
+    }
+}
