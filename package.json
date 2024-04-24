@@ -4,14 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 18000",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue3-naver-maps": "^4.2.0"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",

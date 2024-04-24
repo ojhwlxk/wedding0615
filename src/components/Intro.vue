@@ -6,7 +6,7 @@
     <span class="txt_date">6월 15일 토요일 오후 2시</span>
     <div class="thumb_img">
       <div class="wrap_img">
-        <img src="/images/photo_main.jpg" class="img_g" alt="">
+        <img src="@/assets/images/photo_main.jpg" class="img_g" alt="">
         <div class="couple_name">
           <span class="item_txt">이</span>
           <span class="item_txt">창</span>
@@ -133,7 +133,8 @@
     right: 50px;
     bottom: 40px;
     font-size: 93px;
-    line-height: 106px
+    line-height: 106px;
+    letter-spacing: 5px;
   }
 }
 </style>

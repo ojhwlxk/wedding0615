@@ -2,8 +2,7 @@
 import Intro from './components/Intro.vue'
 import Invite from './components/Invite.vue'
 import Name from './components/Name.vue'
-import Banner from './components/Banner.vue'
-import Call from './components/Call2.vue'
+import Call from './components/Call.vue'
 import Date from './components/Date.vue'
 import Photo from './components/Photo.vue'
 import Location from './components/Location.vue'
@@ -18,17 +17,15 @@ import Footer from './components/Footer.vue'
     <Invite/>
     <Name/>
     <Call/>
-    <!--    <Banner />-->
     <Photo/>
     <Date/>
     <Location/>
     <Account/>
-<!--    <Flower/>-->
   </main>
   <Footer/>
 </template>
 
-<style scoped>
+<style>
 .wrap_main {
   display: block;
   min-width: 320px

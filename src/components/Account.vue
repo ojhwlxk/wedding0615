@@ -1,4 +1,17 @@
-<script setup lang="ts">
+<script>
+export default {
+  data() {
+    return {
+      account1: { bank: '신한은행', num: '123-45-6789' },
+      account2: { bank: '신한은행', num: '123-45-6789' },
+    }
+  },
+  methods: {
+    copyAccount({ bank, num }) {
+      window.navigator.clipboard.writeText(`${bank} ${num}`)
+    }
+  }
+}
 </script>
 
 <template>
@@ -10,17 +23,19 @@
       <div class="group_bank">
         <strong class="head_bank">신랑측 계좌번호</strong>
         <div class="box_bank">
-          <span class="txt_bank">[부] 이성현<span class="num_bank">123-45-6789</span>신한<a href="#none" class="link_copy">복사하기</a></span>
-          <span class="txt_bank">이창훈<span class="num_bank">123-45-6789</span>기업<a href="#none"
-                                                                                  class="link_copy">복사하기</a></span>
+          <div class="txt_bank">
+            [부] 이성현<span class="num_bank">{{ account1.num }}</span>{{ account1.bank }}
+            <span class="link_copy" @click="() => copyAccount(account1)">복사하기</span>
+          </div>
         </div>
       </div>
       <div class="group_bank">
         <strong class="head_bank">신부측 계좌번호</strong>
         <div class="box_bank">
-          <span class="txt_bank">[부] 오윤옥<span class="num_bank">123-45-6789</span>국민<a href="#none" class="link_copy">복사하기</a></span>
-          <span class="txt_bank">오지혜<span class="num_bank">123-45-6789</span>카카오<a href="#none"
-                                                                                   class="link_copy">복사하기</a></span>
+          <div class="txt_bank">
+            [부] 오윤옥<span class="num_bank">{{ account2.num }}</span>{{ account2.bank }}
+            <span class="link_copy" @click="() => copyAccount(account2)">복사하기</span>
+          </div>
         </div>
       </div>
     </div>

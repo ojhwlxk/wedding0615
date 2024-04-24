@@ -8,26 +8,26 @@
     </div>
     <div class="wrap_photo">
       <div class="thumb_photo w_250">
-        <img src="/images/photo_list1.jpg" alt="" class="img_g lazy photo1">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo1">
       </div>
       <div class="thumb_photo">
-        <img src="/images/photo_list2.jpg" alt="" class="img_g lazy photo2 float_l">
-        <img src="/images/photo_list3.jpg" alt="" class="img_g lazy photo3 float_r">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo2 float_l">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo3 float_r">
       </div>
       <div class="thumb_photo">
-        <img src="/images/photo_list4.jpg" alt="" class="img_g lazy photo4">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo4">
       </div>
       <div class="thumb_photo">
-        <img src="/images/photo_list5.jpg" alt="" class="img_g lazy photo5 float_r">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo5 float_r">
       </div>
       <div class="thumb_photo">
-        <img src="/images/photo_list6.jpg" alt="" class="img_g lazy photo6 float_l">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo6 float_l">
       </div>
       <div class="thumb_photo">
-        <img src="/images/photo_list7.jpg" alt="" class="img_g lazy photo7">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo7">
       </div>
       <div class="thumb_photo">
-        <img src="/images/photo_list8.jpg" alt="" class="img_g lazy photo8">
+        <img src="@/assets/images/photo_main.jpg" alt="" class="img_g lazy photo8">
       </div>
     </div>
   </div>
